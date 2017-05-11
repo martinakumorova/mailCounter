@@ -1,0 +1,25 @@
+{
+
+  "name": "mailCounter/yii2-mailPlacementCounter",
+
+
+  "type": "yii2-extension",
+
+
+  "authors": [
+    {
+      "name": "Martina",
+      "email": "m@gmail.com"
+    }
+  ],
+
+  "require": {
+    "yiisoft/yii2": "~2.0.0"
+  },
+
+  "autoload":{
+    "psr-4":{
+        "mailCounter\\mailPlacementCounter\\": "controllers, views"
+      }
+    }
+}
