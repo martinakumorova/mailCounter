@@ -2,10 +2,6 @@
 
   "name": "mailcounter/mailplacementcounter",
   "minimum-stability": "dev",
-<<<<<<< HEAD
-=======
-
->>>>>>> 9929755328bda0067181877ab30853518a96df9e
 
   "type": "yii2-extension",
 
