@@ -2,6 +2,10 @@
 
   "name": "mailcounter/mailplacementcounter",
   "minimum-stability": "dev",
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9929755328bda0067181877ab30853518a96df9e
 
   "type": "yii2-extension",
 
@@ -12,14 +16,14 @@
       "email": "m@gmail.com"
     }
   ],
-
-  "require": {
+    "require": {
     "yiisoft/yii2": "~2.0.0"
   },
 
-  "autoload":{
+   "autoload":{
     "psr-4":{
         "mailCounter\\mailPlacementCounter\\": ""
       }
     }
+ 
 }
