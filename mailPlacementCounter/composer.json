@@ -1,6 +1,6 @@
 {
 
-  "name": "mailcounter/mailplacementcounter",
+  "name": "mailCounter/mailPlacementCounter",
   "minimum-stability": "dev",
 
 
@@ -19,7 +19,7 @@
 
    "autoload":{
     "psr-4":{
-        "mailcounter\\mailplacementcounter\\": ""
+        "mailCounter\\mailPlacementCounter\\": "controllers, views"
       }
     }
  
