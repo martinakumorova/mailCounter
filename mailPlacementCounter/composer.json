@@ -1,6 +1,7 @@
 {
 
   "name": "mailcounter/mailplacementcounter",
+  "minimum-stability": "dev",
 
 
   "type": "yii2-extension",
