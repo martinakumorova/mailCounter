@@ -15,7 +15,7 @@
   
    "autoload":{
     "psr-4":{
-        "mailCounter\\mailPlacementCounter\\": "/mailPlacementCounter"
+        "mailCounter\\mailPlacementCounter\\": "controllers, views"
       }
     },
 
