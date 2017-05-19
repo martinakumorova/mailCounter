@@ -48,7 +48,7 @@ class DefaultController extends Controller
             $countMails=0;
             foreach ($conf['paths'] AS $path)
             {
-                $imapOpen= imap_open($conf['hostname'].$path, $conf['username'],$conf['password']) or die('Cannot connect to Gmail: ' . imap_last_error());
+                $imapOpen= imap_open($conf['hostname'].$path, $conf['username'],$conf['password']) or die('Cannot connect: ' . imap_last_error());
                 $emails = imap_search($imapOpen,'UNSEEN');
                 if($emails){
                     if($emails==null){
